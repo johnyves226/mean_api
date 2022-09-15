@@ -8,7 +8,7 @@ then(
         console.log("DB WELL CONNETED");
     }
 ).catch((error)=>{
-    console.log(error);
+    console.log("ERROR WAS FIND HERE",error);
 })
 
 
